@@ -1,0 +1,20 @@
+{
+  "name": "service",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Yoge <yogev1520@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "lib": "^4.0.1"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "Yoge/service",
+    "timeout": 10000,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
